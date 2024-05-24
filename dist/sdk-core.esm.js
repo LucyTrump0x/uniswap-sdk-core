@@ -49,7 +49,6 @@ function _inheritsLoose(subClass, superClass) {
 }
 
 var ChainId
-
 ;(function(ChainId) {
   ChainId[(ChainId['MAINNET'] = 1)] = 'MAINNET'
   ChainId[(ChainId['GOERLI'] = 5)] = 'GOERLI'
@@ -100,7 +99,6 @@ var SUPPORTED_CHAINS = [
   ChainId.BLAST
 ]
 var NativeCurrencyName
-
 ;(function(NativeCurrencyName) {
   // Strings match input for CLI
   NativeCurrencyName['ETHER'] = 'ETH'
@@ -479,14 +477,12 @@ var SWAP_ROUTER_02_ADDRESSES = function SWAP_ROUTER_02_ADDRESSES(chainId) {
 }
 
 var TradeType
-
 ;(function(TradeType) {
   TradeType[(TradeType['EXACT_INPUT'] = 0)] = 'EXACT_INPUT'
   TradeType[(TradeType['EXACT_OUTPUT'] = 1)] = 'EXACT_OUTPUT'
 })(TradeType || (TradeType = {}))
 
 var Rounding
-
 ;(function(Rounding) {
   Rounding[(Rounding['ROUND_DOWN'] = 0)] = 'ROUND_DOWN'
   Rounding[(Rounding['ROUND_HALF_UP'] = 1)] = 'ROUND_HALF_UP'
